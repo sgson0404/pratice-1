@@ -63,7 +63,7 @@ const SearchPresenter = ({
         )}
         {tvResults && tvResults.length > 0 && (
           <Section title="TV Show Results">
-            {tvResults.map(show => (
+            {tvResults.map(movie => (
               <Poster
                 key={movie.id}
                 id={movie.id}
@@ -74,7 +74,7 @@ const SearchPresenter = ({
                 isMovie={true}
               />
             ))}
-          </Section>
+          </Section> 
         )}
         {error && <Message color="#e74c3c" text={error} />}
         {tvResults &&
