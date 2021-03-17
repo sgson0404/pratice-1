@@ -1,6 +1,6 @@
 import React from "react";
 
-import {BrowserRouter as Router, Redirect, Route, Switch} from "react-router-dom";
+import {HashRouter as Router, Redirect, Route, Switch} from "react-router-dom";
 
 import Home from "Routes/Home";
 import TV from "Routes/TV";
